@@ -87,9 +87,9 @@ div.campo > i {
 
 div.campo > input {
     display:inline;
-    background-color: #ccff00;
+    background-color: pink;
     font-size: 1em;
-    width: calc(100% - 45px);
+   
     transform: translateY(-9px);/*para deslocar a div para cima*/
     height: 100%;
     border-radius: 9px;
@@ -97,6 +97,9 @@ div.campo > input {
  
   
   
+}
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 /*Configurando os botões*/
